@@ -1,0 +1,194 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Jerry\\API\\CleanArchitecture\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D74DA678-2832-488C-B188-965F03D9848D}|CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj|c:\\users\\jerry\\api\\cleanarchitecture\\cleanarchitecture.domain\\interfaces\\iproductorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D74DA678-2832-488C-B188-965F03D9848D}|CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj|solutionrelative:cleanarchitecture.domain\\interfaces\\iproductorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D74DA678-2832-488C-B188-965F03D9848D}|CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj|c:\\users\\jerry\\api\\cleanarchitecture\\cleanarchitecture.domain\\entidades\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D74DA678-2832-488C-B188-965F03D9848D}|CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj|solutionrelative:cleanarchitecture.domain\\entidades\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D74DA678-2832-488C-B188-965F03D9848D}|CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj|c:\\users\\jerry\\api\\cleanarchitecture\\cleanarchitecture.domain\\cleanarchitecture.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D74DA678-2832-488C-B188-965F03D9848D}|CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj|solutionrelative:cleanarchitecture.domain\\cleanarchitecture.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC538084-F037-4AA6-A70A-EBC04D12E104}|CleanArchitecture.Presentation\\CleanArchitecture.Presentation.csproj|c:\\users\\jerry\\api\\cleanarchitecture\\cleanarchitecture.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC538084-F037-4AA6-A70A-EBC04D12E104}|CleanArchitecture.Presentation\\CleanArchitecture.Presentation.csproj|solutionrelative:cleanarchitecture.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC538084-F037-4AA6-A70A-EBC04D12E104}|CleanArchitecture.Presentation\\CleanArchitecture.Presentation.csproj|c:\\users\\jerry\\api\\cleanarchitecture\\cleanarchitecture.presentation\\cleanarchitecture.presentation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FC538084-F037-4AA6-A70A-EBC04D12E104}|CleanArchitecture.Presentation\\CleanArchitecture.Presentation.csproj|solutionrelative:cleanarchitecture.presentation\\cleanarchitecture.presentation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C782A8-AB6A-416E-BAD1-3F0DCA7E8D27}|CleanArchitecture.Infraestructura\\CleanArchitecture.Infraestructura.csproj|c:\\users\\jerry\\api\\cleanarchitecture\\cleanarchitecture.infraestructura\\cleanarchitecture.infraestructura.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F9C782A8-AB6A-416E-BAD1-3F0DCA7E8D27}|CleanArchitecture.Infraestructura\\CleanArchitecture.Infraestructura.csproj|solutionrelative:cleanarchitecture.infraestructura\\cleanarchitecture.infraestructura.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C0A9500-3F64-4DB1-9315-3271E6743140}|CleanArchitecture.Aplication\\CleanArchitecture.Aplication.csproj|c:\\users\\jerry\\api\\cleanarchitecture\\cleanarchitecture.aplication\\cleanarchitecture.aplication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0C0A9500-3F64-4DB1-9315-3271E6743140}|CleanArchitecture.Aplication\\CleanArchitecture.Aplication.csproj|solutionrelative:cleanarchitecture.aplication\\cleanarchitecture.aplication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C782A8-AB6A-416E-BAD1-3F0DCA7E8D27}|CleanArchitecture.Infraestructura\\CleanArchitecture.Infraestructura.csproj|c:\\users\\jerry\\api\\cleanarchitecture\\cleanarchitecture.infraestructura\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C782A8-AB6A-416E-BAD1-3F0DCA7E8D27}|CleanArchitecture.Infraestructura\\CleanArchitecture.Infraestructura.csproj|solutionrelative:cleanarchitecture.infraestructura\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C0A9500-3F64-4DB1-9315-3271E6743140}|CleanArchitecture.Aplication\\CleanArchitecture.Aplication.csproj|c:\\users\\jerry\\api\\cleanarchitecture\\cleanarchitecture.aplication\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C0A9500-3F64-4DB1-9315-3271E6743140}|CleanArchitecture.Aplication\\CleanArchitecture.Aplication.csproj|solutionrelative:cleanarchitecture.aplication\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D74DA678-2832-488C-B188-965F03D9848D}|CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj|c:\\users\\jerry\\api\\cleanarchitecture\\cleanarchitecture.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D74DA678-2832-488C-B188-965F03D9848D}|CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj|solutionrelative:cleanarchitecture.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IProductoRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\Jerry\\API\\CleanArchitecture\\CleanArchitecture.Domain\\Interfaces\\IProductoRepositorio.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Domain\\Interfaces\\IProductoRepositorio.cs",
+              "ToolTip": "C:\\Users\\Jerry\\API\\CleanArchitecture\\CleanArchitecture.Domain\\Interfaces\\IProductoRepositorio.cs",
+              "RelativeToolTip": "CleanArchitecture.Domain\\Interfaces\\IProductoRepositorio.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAewBMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T04:58:50.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\Jerry\\API\\CleanArchitecture\\CleanArchitecture.Domain\\Entidades\\Producto.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Domain\\Entidades\\Producto.cs",
+              "ToolTip": "C:\\Users\\Jerry\\API\\CleanArchitecture\\CleanArchitecture.Domain\\Entidades\\Producto.cs",
+              "RelativeToolTip": "CleanArchitecture.Domain\\Entidades\\Producto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T04:56:44.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CleanArchitecture.Domain",
+              "DocumentMoniker": "C:\\Users\\Jerry\\API\\CleanArchitecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj",
+              "RelativeDocumentMoniker": "CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj",
+              "ToolTip": "C:\\Users\\Jerry\\API\\CleanArchitecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj",
+              "RelativeToolTip": "CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-08T04:54:51.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CleanArchitecture.Infraestructura",
+              "DocumentMoniker": "C:\\Users\\Jerry\\API\\CleanArchitecture\\CleanArchitecture.Infraestructura\\CleanArchitecture.Infraestructura.csproj",
+              "RelativeDocumentMoniker": "CleanArchitecture.Infraestructura\\CleanArchitecture.Infraestructura.csproj",
+              "ToolTip": "C:\\Users\\Jerry\\API\\CleanArchitecture\\CleanArchitecture.Infraestructura\\CleanArchitecture.Infraestructura.csproj",
+              "RelativeToolTip": "CleanArchitecture.Infraestructura\\CleanArchitecture.Infraestructura.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-08T04:47:23.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Jerry\\API\\CleanArchitecture\\CleanArchitecture.Presentation\\Program.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Presentation\\Program.cs",
+              "ToolTip": "C:\\Users\\Jerry\\API\\CleanArchitecture\\CleanArchitecture.Presentation\\Program.cs",
+              "RelativeToolTip": "CleanArchitecture.Presentation\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T04:34:32.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CleanArchitecture.Aplication",
+              "DocumentMoniker": "C:\\Users\\Jerry\\API\\CleanArchitecture\\CleanArchitecture.Aplication\\CleanArchitecture.Aplication.csproj",
+              "RelativeDocumentMoniker": "CleanArchitecture.Aplication\\CleanArchitecture.Aplication.csproj",
+              "ToolTip": "C:\\Users\\Jerry\\API\\CleanArchitecture\\CleanArchitecture.Aplication\\CleanArchitecture.Aplication.csproj",
+              "RelativeToolTip": "CleanArchitecture.Aplication\\CleanArchitecture.Aplication.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-08T04:46:29.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CleanArchitecture.Presentation",
+              "DocumentMoniker": "C:\\Users\\Jerry\\API\\CleanArchitecture\\CleanArchitecture.Presentation\\CleanArchitecture.Presentation.csproj",
+              "RelativeDocumentMoniker": "CleanArchitecture.Presentation\\CleanArchitecture.Presentation.csproj",
+              "ToolTip": "C:\\Users\\Jerry\\API\\CleanArchitecture\\CleanArchitecture.Presentation\\CleanArchitecture.Presentation.csproj",
+              "RelativeToolTip": "CleanArchitecture.Presentation\\CleanArchitecture.Presentation.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-08T04:36:14.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Jerry\\API\\CleanArchitecture\\CleanArchitecture.Infraestructura\\Class1.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Infraestructura\\Class1.cs",
+              "ToolTip": "C:\\Users\\Jerry\\API\\CleanArchitecture\\CleanArchitecture.Infraestructura\\Class1.cs",
+              "RelativeToolTip": "CleanArchitecture.Infraestructura\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T04:29:36.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Jerry\\API\\CleanArchitecture\\CleanArchitecture.Aplication\\Class1.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Aplication\\Class1.cs",
+              "ToolTip": "C:\\Users\\Jerry\\API\\CleanArchitecture\\CleanArchitecture.Aplication\\Class1.cs",
+              "RelativeToolTip": "CleanArchitecture.Aplication\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T04:29:01.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Jerry\\API\\CleanArchitecture\\CleanArchitecture.Domain\\Class1.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Domain\\Class1.cs",
+              "ToolTip": "C:\\Users\\Jerry\\API\\CleanArchitecture\\CleanArchitecture.Domain\\Class1.cs",
+              "RelativeToolTip": "CleanArchitecture.Domain\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T04:25:36.979Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
