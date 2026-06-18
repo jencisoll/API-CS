@@ -111,17 +111,17 @@
           "bin/placeholder/CleanArchitecture.Domain.dll": {}
         }
       },
-      "CleanArchitecture.Infraestructura/1.0.0": {
+      "CleanArchitecture.Infraestructure/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
           "CleanArchitecture.Aplication": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/CleanArchitecture.Infraestructura.dll": {}
+          "bin/placeholder/CleanArchitecture.Infraestructure.dll": {}
         },
         "runtime": {
-          "bin/placeholder/CleanArchitecture.Infraestructura.dll": {}
+          "bin/placeholder/CleanArchitecture.Infraestructure.dll": {}
         }
       }
     }
@@ -286,16 +286,16 @@
       "path": "../CleanArchitecture.Domain/CleanArchitecture.Domain.csproj",
       "msbuildProject": "../CleanArchitecture.Domain/CleanArchitecture.Domain.csproj"
     },
-    "CleanArchitecture.Infraestructura/1.0.0": {
+    "CleanArchitecture.Infraestructure/1.0.0": {
       "type": "project",
-      "path": "../CleanArchitecture.Infraestructura/CleanArchitecture.Infraestructura.csproj",
-      "msbuildProject": "../CleanArchitecture.Infraestructura/CleanArchitecture.Infraestructura.csproj"
+      "path": "../CleanArchitecture.Infraestructura/CleanArchitecture.Infraestructure.csproj",
+      "msbuildProject": "../CleanArchitecture.Infraestructura/CleanArchitecture.Infraestructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
       "CleanArchitecture.Aplication >= 1.0.0",
-      "CleanArchitecture.Infraestructura >= 1.0.0",
+      "CleanArchitecture.Infraestructure >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 9.0.9",
       "Swashbuckle.AspNetCore.SwaggerGen >= 10.2.1"
     ]
@@ -335,8 +335,8 @@
             "C:\\Users\\Jerry\\API\\CleanArchitecture\\CleanArchitecture.Aplication\\CleanArchitecture.Aplication.csproj": {
               "projectPath": "C:\\Users\\Jerry\\API\\CleanArchitecture\\CleanArchitecture.Aplication\\CleanArchitecture.Aplication.csproj"
             },
-            "C:\\Users\\Jerry\\API\\CleanArchitecture\\CleanArchitecture.Infraestructura\\CleanArchitecture.Infraestructura.csproj": {
-              "projectPath": "C:\\Users\\Jerry\\API\\CleanArchitecture\\CleanArchitecture.Infraestructura\\CleanArchitecture.Infraestructura.csproj"
+            "C:\\Users\\Jerry\\API\\CleanArchitecture\\CleanArchitecture.Infraestructura\\CleanArchitecture.Infraestructure.csproj": {
+              "projectPath": "C:\\Users\\Jerry\\API\\CleanArchitecture\\CleanArchitecture.Infraestructura\\CleanArchitecture.Infraestructure.csproj"
             }
           }
         }

@@ -51,9 +51,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jerry\\API\\CleanArchitecture\\CleanArchitecture.Infraestructura\\CleanArchitecture.Infraestructura.csproj",
-      "projectName": "CleanArchitecture.Infraestructura",
-      "projectPath": "C:\\Users\\Jerry\\API\\CleanArchitecture\\CleanArchitecture.Infraestructura\\CleanArchitecture.Infraestructura.csproj",
+      "projectUniqueName": "C:\\Users\\Jerry\\API\\CleanArchitecture\\CleanArchitecture.Infraestructura\\CleanArchitecture.Infraestructure.csproj",
+      "projectName": "CleanArchitecture.Infraestructure",
+      "projectPath": "C:\\Users\\Jerry\\API\\CleanArchitecture\\CleanArchitecture.Infraestructura\\CleanArchitecture.Infraestructure.csproj",
       "packagesPath": "C:\\Users\\Jerry\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Jerry\\API\\CleanArchitecture\\CleanArchitecture.Infraestructura\\obj\\",
       "projectStyle": "PackageReference",
