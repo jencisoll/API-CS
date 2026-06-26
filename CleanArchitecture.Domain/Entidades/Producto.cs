@@ -24,7 +24,7 @@ namespace CleanArchitecture.Domain.Entidades
         /// Obtiene o establece el nombre del producto.
         /// Es un string, lo que permite flexibilidad en los nombres de los productos.
         /// </summary>
-        public string Nombre{ get; set; }
+        public string Nombre { get; set; } = string.Empty;
 
         /// <summary>
         /// Obtiene o establece el precio del producto.

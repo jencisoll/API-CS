@@ -1,7 +1,8 @@
-using CleanArchitecture.Domain.Interfaces;
+using CleanArchitecture.Application.Productos;
 using CleanArchitecture.Domain.Entidades;
-using CleanArchitecture.Infraestructure.Data;
-using CleanArchitecture.Aplication.Productos;
+using CleanArchitecture.Domain.Interfaces;
+using CleanArchitecture.Infrastructure.Data;
+using CleanArchitecture.Presentation.Middleware;
 using Microsoft.OpenApi;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,13 +13,14 @@ builder.Services.AddSwaggerGen(c =>
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "CleanArchitecture API", Version = "v1" });
 });
 
-// MODIFICADO: Registro del repositorio en memoria como singleton para mantener los datos durante la sesión
+builder.Services.AddExceptionHandler<GlobalExceptionHandler>();
+builder.Services.AddProblemDetails();
+
 builder.Services.AddSingleton<IProductoRepositorio, EnMemoriaProductoRepositorio>();
 
-// MODIFICADO: Registro de los casos de uso (queries/commands) como transient
 builder.Services.AddTransient<DameProductoQuery>();
 builder.Services.AddTransient<DameProductoPorIdQuery>();
-builder.Services.AddTransient<AgregarProductoQuery>();
+builder.Services.AddTransient<AgregarProductoCommand>();
 builder.Services.AddTransient<ActualizarProductoCommand>();
 builder.Services.AddTransient<BorrarProductoCommand>();
 
@@ -30,43 +32,87 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseExceptionHandler();
 app.UseHttpsRedirection();
 
-// MODIFICADO: Endpoints de la API de productos
 app.MapGet("/api/productos", async (DameProductoQuery query) =>
 {
     var productos = await query.ExecuteAsync();
-    return Results.Ok(productos);
+    return Results.Ok(productos.Select(MapToResponse));
 })
-.WithTags("Productos");
+.WithName("ObtenerProductos")
+.WithTags("Productos")
+.Produces<IEnumerable<ProductoResponse>>(StatusCodes.Status200OK);
 
 app.MapGet("/api/productos/{id:guid}", async (Guid id, DameProductoPorIdQuery query) =>
 {
     var producto = await query.ExecuteAsync(id);
-    return producto is not null ? Results.Ok(producto) : Results.NotFound();
+    return producto is not null ? Results.Ok(MapToResponse(producto)) : Results.NotFound();
 })
-.WithTags("Productos");
+.WithName("ObtenerProductoPorId")
+.WithTags("Productos")
+.Produces<ProductoResponse>(StatusCodes.Status200OK)
+.Produces(StatusCodes.Status404NotFound);
 
-app.MapPost("/api/productos", async (Producto producto, AgregarProductoQuery command) =>
+app.MapPost("/api/productos", async (ProductoRequest request, AgregarProductoCommand command) =>
 {
-    producto.id = Guid.NewGuid();
-    await command.AgregarProductoAsync(producto);
-    return Results.Created($"/api/productos/{producto.id}", producto);
+    var (isValid, errors) = ProductoRequestValidator.Validate(request);
+    if (!isValid)
+    {
+        return Results.BadRequest(new { Errors = errors });
+    }
+
+    var producto = new Producto
+    {
+        Nombre = request.Nombre,
+        Precio = request.Precio
+    };
+
+    var creado = await command.ExecuteAsync(producto);
+    return Results.Created($"/api/productos/{creado.id}", MapToResponse(creado));
 })
-.WithTags("Productos");
+.WithName("CrearProducto")
+.WithTags("Productos")
+.Produces<ProductoResponse>(StatusCodes.Status201Created)
+.ProducesValidationProblem();
 
-app.MapPut("/api/productos/{id:guid}", async (Guid id, Producto producto, ActualizarProductoCommand command) =>
+app.MapPut("/api/productos/{id:guid}", async (Guid id, ProductoRequest request, ActualizarProductoCommand command) =>
 {
+    var (isValid, errors) = ProductoRequestValidator.Validate(request);
+    if (!isValid)
+    {
+        return Results.BadRequest(new { Errors = errors });
+    }
+
+    var producto = new Producto
+    {
+        id = id,
+        Nombre = request.Nombre,
+        Precio = request.Precio
+    };
+
     await command.ExecuteAsync(id, producto);
     return Results.NoContent();
 })
-.WithTags("Productos");
+.WithName("ActualizarProducto")
+.WithTags("Productos")
+.Produces(StatusCodes.Status204NoContent)
+.Produces(StatusCodes.Status404NotFound)
+.ProducesValidationProblem();
 
 app.MapDelete("/api/productos/{id:guid}", async (Guid id, BorrarProductoCommand command) =>
 {
     await command.ExecuteAsync(id);
     return Results.NoContent();
 })
-.WithTags("Productos");
+.WithName("EliminarProducto")
+.WithTags("Productos")
+.Produces(StatusCodes.Status204NoContent)
+.Produces(StatusCodes.Status404NotFound);
 
 app.Run();
+
+static ProductoResponse MapToResponse(Producto producto) =>
+    new(producto.id, producto.Nombre, producto.Precio);
+
+public partial class Program { }

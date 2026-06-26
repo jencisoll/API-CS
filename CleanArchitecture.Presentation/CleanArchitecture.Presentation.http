@@ -1,6 +1,32 @@
 @CleanArchitecture.Presentation_HostAddress = http://localhost:5056
 
-GET {{CleanArchitecture.Presentation_HostAddress}}/weatherforecast/
+### Obtener todos los productos
+GET {{CleanArchitecture.Presentation_HostAddress}}/api/productos
 Accept: application/json
+
+### Crear un producto
+POST {{CleanArchitecture.Presentation_HostAddress}}/api/productos
+Content-Type: application/json
+
+{
+  "nombre": "Laptop",
+  "precio": 1299.99
+}
+
+### Obtener un producto por ID (reemplazar {{id}} con el Guid devuelto)
+GET {{CleanArchitecture.Presentation_HostAddress}}/api/productos/{{id}}
+Accept: application/json
+
+### Actualizar un producto por ID (reemplazar {{id}} con el Guid devuelto)
+PUT {{CleanArchitecture.Presentation_HostAddress}}/api/productos/{{id}}
+Content-Type: application/json
+
+{
+  "nombre": "Laptop Pro",
+  "precio": 1499.99
+}
+
+### Eliminar un producto por ID (reemplazar {{id}} con el Guid devuelto)
+DELETE {{CleanArchitecture.Presentation_HostAddress}}/api/productos/{{id}}
 
 ###
